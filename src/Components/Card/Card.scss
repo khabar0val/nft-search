@@ -1,0 +1,10 @@
+.Card {
+    padding: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    background-color: rgba($color:#E9EBF1, $alpha: 0.9);
+}

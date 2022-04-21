@@ -1,0 +1,18 @@
+.Input {
+    display: block;
+    padding: 8px 4px;
+
+    .input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 10px;
+        border-color: #4E85F4;
+        border-style: solid;
+        background-color: rgba($color:#E9EBF1, $alpha: 0.5);
+
+        &:focus {
+            outline: none;
+            border-color: #2858BA;
+        }
+    }
+}

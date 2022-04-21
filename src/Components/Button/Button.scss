@@ -1,0 +1,15 @@
+.Button {
+    display: inline-block;
+
+    .primary {
+        padding: 8px 16px;
+        background-color: #3376FF;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    :hover {
+        background-color: #3169DA;
+    }
+}
