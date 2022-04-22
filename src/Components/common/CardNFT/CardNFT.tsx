@@ -1,4 +1,4 @@
-import { Button } from "../Button";
+import { Button } from "../Button/index";
 import { Card } from "../Card/index";
 import "./CardNFT.scss";
 

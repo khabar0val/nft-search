@@ -1,0 +1,25 @@
+.UploadImage {
+    .dropzone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .input {
+            display: none;
+        }
+
+        .icon {
+            width: 120px;
+            height: 120px;
+            padding: 8px;
+        }
+
+        .text {
+            padding: 8px
+        }
+    }
+    
+
+
+}
