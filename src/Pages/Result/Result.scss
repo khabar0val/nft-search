@@ -1,0 +1,18 @@
+.Result {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+    .image {
+        height: auto;
+        width: 480px;
+    }
+
+    .result {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

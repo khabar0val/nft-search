@@ -7,7 +7,7 @@ export const Main = () => {
 
     return(
         <div className="Main">
-            <h1>Let check your NFT!</h1>
+            <h1>Let's check your NFT!</h1>
             <Button onClick={() => nav('/check')}>Check It!</Button>
         </div>
     );

@@ -7,6 +7,7 @@ import { CardNFT } from './Components/common/CardNFT/CardNFT';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Main } from './Pages/Main';
 import { Check } from './Pages/Check/Check';
+import { Result } from './Pages/Result/Result';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/check' element={<Check />}/>
+          <Route path='/result' element={<Result />} />
         </Routes>
       </BrowserRouter>
       {/* <div className='block-search'>
