@@ -12,7 +12,7 @@ def CalcImageHash(fFileName):
     # print(str(FileName))
     # print(str(img_dir+FileName))
     FileName = img_dir+fFileName
-    print(str(FileName))
+    # print(str(FileName))
     image = cv2.imread(FileName)     
     # print(str(image))
     resized = cv2.resize(image, (1000, 1000), interpolation = cv2.INTER_AREA) #Уменьшим картинку

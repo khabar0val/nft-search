@@ -1,0 +1,7 @@
+POST http://127.0.0.1:5000/search/NFT_9fd011d6496e12302cc1c1812aa1f1a2a342c0471bad8e581df86aeb52325b95.png HTTP/1.1
+content-type: application/json
+
+
+{
+
+}
